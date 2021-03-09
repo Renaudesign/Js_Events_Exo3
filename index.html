@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>JS Events Exercice 3</title>
+</head>
+<body>
+  <form>
+    <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="inputLastname" value="test" onkeydown="lnameAlert();"/>
+  </form>
+  <script>
+    function lnameAlert(){
+      let lnameValue = document.getElementById("inputLastname").value
+      alert(lnameValue)
+    }
+  </script>
+</body>
+</html>
